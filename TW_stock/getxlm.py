@@ -3,7 +3,7 @@ import urllib.request
 import os
 
 def set_time_C(name):
-    months = ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     tm = strftime("%B")
     wm = "0" + str(months.index(tm) + 1)
     wy = strftime("%Y")
@@ -14,7 +14,7 @@ def set_time_C(name):
     urllib.request.urlretrieve(csv_file, filename=path)
 
 def set_time_N(name):
-    months = ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     tm = strftime("%B")
     wm = "0" + str(months.index(tm) + 1)
     wy = strftime("%Y")
