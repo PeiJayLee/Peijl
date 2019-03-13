@@ -1,3 +1,3 @@
-# Peijl
-testing!
-I love Steven, Steven loves me :)
+Hello, this is Pei Jay Lee
+
+Welcome to my Github! 
